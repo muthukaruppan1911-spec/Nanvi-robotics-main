@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="images/favicon.png?v=20261124c">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us — Free Consultation &amp; RaaS Booking | Nanvi.ai</title>
+  <meta name="description"
+    content="Request a free consultation with NANVI Technology Solutions LLC (Nanvi.ai) for custom AI pipelines, industrial robotics pilots, or Event Bot RaaS rentals.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&family=JetBrains+Mono:wght@500;700&display=swap">
+  <link rel="stylesheet" href="site.css?v=20261124b">
+</head>
+
+<body>
+  <main class="page-wrap">
+    <section class="page-hero">
+      <div>
+        <span class="eyebrow">Get a Free Consultation</span>
+        <h1>Scope your <span>AI or robotics deployment</span></h1>
+        <p class="lead">Tell our US and India engineering leads about your inspection line, custom AI workflow, or
+          upcoming Robotics-as-a-Service (RaaS) event dates.</p>
+      </div>
+      <div class="media-frame">
+        <video autoplay muted loop playsinline preload="metadata" poster="images/thumbs/humanoid-engineer-tablet.webp">
+          <source src="videos/humanoid-engineer-tablet.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <div class="energy-divider" aria-hidden="true"></div>
+
+    <section class="content-section" id="contact-section">
+      <div class="contact-glass-panel">
+        <div>
+          <span class="eyebrow">Direct Engineering Desk</span>
+          <h2>What would you like to <span>build?</span></h2>
+          <p class="section-sub">Every inquiry goes directly to our technical team—never an outsourced call center. We
+            review your scope and propose a practical next step.</p>
+
+          <div class="office-badges">
+            <div class="office-mini-card">
+              <h4>USA Headquarters &amp; Client Delivery</h4>
+              <p>NANVI Technology Solutions LLC<br>520 Central Parkway East, Suite 105, Plano, Texas 75074</p>
+            </div>
+            <div class="office-mini-card">
+              <h4>India AI &amp; Robotics Engineering Center</h4>
+              <p>Chennai, Tamil Nadu, India<br>Computer Vision, NRIP Platform &amp; Embedded Systems</p>
+            </div>
+            <div class="office-mini-card">
+              <h4>What Happens After You Submit</h4>
+              <p>1. Workflow &amp; site scope review &rarr; 2. Live capability demo &rarr; 3. Pilot architecture or RaaS
+                schedule</p>
+            </div>
+            <div class="office-mini-card">
+              <h4>Direct Email Channels</h4>
+              <p><a href="mailto:hradmin@nanvitech.com">hradmin@nanvitech.com</a> &bull; <a
+                  href="mailto:support@nanvitech.com">support@nanvitech.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <!-- Honeypot anti-spam trap (invisible to human users) -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="contact-website">Website URL (leave blank)</label>
+            <input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-group">
+            <label>Quick-Pick Topic</label>
+            <div class="subject-chips" role="group" aria-label="Quick select inquiry topic">
+              <button type="button" class="subject-chip"
+                data-subject-fill="Robotics as a Service (RaaS) Event Booking">Book
+                Event Bot (RaaS)</button>
+              <button type="button" class="subject-chip"
+                data-subject-fill="Indus Bot Optical QC & Factory Automation">Indus
+                Bot / Optical QC</button>
+              <button type="button" class="subject-chip" data-subject-fill="Custom AI Software & Vision Pipeline">Custom
+                AI
+                Pipeline</button>
+              <button type="button" class="subject-chip" data-subject-fill="Agri Bot or Care Bot Pilot Enquiry">Agri /
+                Care Pilot</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-name">Full Name * <span class="req" aria-hidden="true"></span></label>
+            <input id="contact-name" name="name" type="text" maxlength="100" autocomplete="name"
+              placeholder="e.g. Jordan Taylor" required aria-describedby="err-name">
+            <span class="field-error" id="err-name" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Work Email Address * <span class="req" aria-hidden="true"></span></label>
+            <input id="contact-email" name="email" type="email" maxlength="254" autocomplete="email"
+              placeholder="e.g. jordan@company.com" required aria-describedby="err-email">
+            <span class="field-error" id="err-email" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-subject">Subject * <span class="req" aria-hidden="true"></span></label>
+            <input id="contact-subject" name="subject" type="text" maxlength="150"
+              placeholder="Select a quick-pick topic above or type your subject" required
+              aria-describedby="err-subject">
+            <span class="field-error" id="err-subject" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Project Details * <span class="req" aria-hidden="true"></span></label>
+            <textarea id="contact-message" name="message" rows="5" maxlength="5000"
+              placeholder="Share your workflow bottleneck, target industry, event dates, or facility requirements..."
+              required aria-describedby="err-message"></textarea>
+            <span class="field-error" id="err-message" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" id="contact-submit" class="contact-submit-btn">
+              <span class="btn-text">Send Consultation Request</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <div id="contact-alert" class="form-alert" role="alert" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="site.js?v=20261124c"></script>
+</body>
+
+</html>
